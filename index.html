@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/raspansiv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      
+
+    <header>
+        <div class="containe "> 
+        
+              <div class=" header-info d-flex w-100">
+                 
+                   <div class="header-left me-3">
+                       <span><i class="fa fa-message header-icon"></i></span>
+                       <a class="header-link" href="#">info@example.com</a>
+                   </div>
+                   <div class="header-right">
+                       <span><i class="fa fa-phone header-icon"></i></span>
+                       <span>+1 5589 55488 55</span>
+                   </div>
+                </div>
+            <div class="header-icons">
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-youtube"></i></span>
+                <span><i class="fab fa-telegram"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+            </div>
+        </div>
+    </header>
+
+      <div class="nav-bar">
+                <nav>
+                    <div class="containe">
+                       
+                        <div class="nav-bar-in">
+                           <div class="nav-bar-h1">
+                               <div class="h11"><h1>Manba</h1></div>
+
+                               <div class="hamburger1  " >
+                                <span id="bum">
+                             <i class="fa-solid fa-bars"></i>
+                             </span>
+                         </div>
+                             
+                           </div>
+                           
+                               <ul class="nav-list" id="bur2">
+                                    <li class="list-bar"><a href="#">Home</a></li>
+                                   <li class="list-bar"><a href="#">About</a></li>
+                                   <li class="list-bar"><a href="#">Services</a></li>
+                                   <li class="list-bar"><a href="#">Portfolio</a></li>
+                                   <li class="list-bar list-bar-drob-down"><a class="list-bar-drob-down2">Drop Down <span><i class="fa-solid fa-angle-up icon-up"></i></span> <span class="span-up"><i class="fa-solid fa-angle-up icon-up2"></i></span></a>
+                                
+                                   <ul class="list-bar-down">
+                                       <li><a href="#">page</a></li>
+                                       <li><a href="#">email</a></li>
+                                       <li><a href="#">page</a></li>
+                                       <li><a href="#">email</a></li>
+                                   </ul>
+                                   <ul class="list-bar-down2">
+                                    <li><a href="#">page</a></li>
+                                    <li><a href="#">email</a></li>
+                                    <li><a href="#">page</a></li>
+                                    <li><a href="#">email</a></li>
+                                </ul>
+
+
+                                </li>
+                                   <li class="list-bar ms-4"><a><i class="fa fa-search"></i></a></li>
+                                   <li class="list-bar ms-4" id="sign"><a>Sign in</a></li>
+                                   <li class="list-bar" id="up-sign"><a>Sign up</a></li>
+
+                               </ul>
+                               <ul class="nav-list-input " >
+                                <li class="list-bar " id="sign"><p>Sign in</p></li>
+                                <li class="list-bar" id="up-sign"><p class=" border border-2 border-primary">Sign up</p></li>
+                                <div class="hamburger list-bar ms-5 "id="bur" >
+                                    <span >
+                                 <i class="fa-solid fa-bars "></i>
+                                 </span>
+                             </div>
+                            
+                             </ul>
+                        </div>
+                    </div>
+              </nav>
+      </div>
+
+<section>
+    <div id="sin">
+        <div class="sin">
+             <div class="senter">
+                 <h1>Sign In</h1>
+                 <form class="myform" action="" name="myForm">
+                     <label for="login">Email</label>
+                     <input type="text"c class="" placeholder="muratjiyankulov@gmail.com"  id="email"  name="email" onblur="islogin()">
+                     <span class="sp"> </span>
+                     <span class="sign-in"><i class="fa-solid fa-user-large"></i></span>
+                     <label for="parol">Password</label>
+                     <input type="password" class="" placeholder="11111111"  id="password"  name="parol" onblur=" isPassword()">
+                     <span class="sp"></span>
+                     <span class="sign-in"><i class="fa-solid fa-user-secret"></i></span>
+  
+                      
+                 </form>
+                 <input type="submit" class="btn btn-primary mt-5" value="Sign In">
+                 <div id="iks"> <i class="fa-solid fa-times"></i> </div>
+                 <div class="sin-icons"> 
+                  <span class="sin-icon"><i class="fab fa-youtube"></i></span>
+                  <span class="sin-icon"><i class="fab fa-telegram"></i></span>
+                  <span class="sin-icon"><i class="fab fa-facebook"></i></span>
+                 </div>
+ 
+             </div>
+             
+  
+        </div>
+      </div>
+      
+        <div id="sin2" >
+         <div class="sin2">
+  
+             <div class="senter2">
+                 <div class="text-light">
+                     <h1>Sign Up</h1>
+                 </div>
+                 <form action="" class="myform2" name="myFormTwo">
+                  <input type="text"  id="name" name="name" placeholder="Name">
+                  <span class="span"><i class="fa-solid fa-user-large"></i></span>
+                  <input type="email" name=" " id="" placeholder="Email">
+                  <span  class="span"><i class="fa-solid fa-user-large "></i></span>
+                  <input type="text" placeholder="UserName">
+                  <span  class="span"><i class="fa-solid fa-user-large "></i></span>
+                  <input type="password" name="password" id="passwords" placeholder="Password">
+                  <span  class="span"><i class="fa-solid fa-user-secret"></i></span>
+                 
+                 </form>
+                 <div class="d-flex">
+                 <input type="submit" class="btn btn-primary button" value="Sign Up">
+                 <span class="mx-3"></span>
+                 <button class="btn btn-primary button" id="sign-in-go">Sign In  </button>
+              </div>
+                 <span id="sign-up"> <i class="fa-solid fa-times"></i> </span>
+             </div>
+         </div>
+        </div>
+</section>
+
+
+      <section id="a">
+          <div class="slider">
+            <div class="slide active ">
+                <img src="./img/slide/slide-1.jpg" alt="">
+
+                <div class="text">
+                    <div class="text-in">
+                    <h1>Lorem Ipsum Dolor</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur  adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit fuga, ipsam laudantium veniam?</p>
+                     <div class="btn btn-primary py-2 px-5">Alisher</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./img/slide/slide-2.jpg" alt="">
+                <div class="text">
+                    <div class="text-in">
+                    <h1>Lorem  Dolor Ipsum</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit fuga, ipsam adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit laudantium veniam?</p>
+                     <div class="btn btn-primary py-2 px-5 ">Alisher</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./img/slide/slide-3.jpg" alt="">
+                <div class="text">
+                    <div class="text-in">
+                    <h1> Ipsum Dolor Lorem</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit fuga, ipsam adipisicing elit. Facilis quam unde deserunt accusantium at provident suscipit laudantium veniam?</p>
+                     <div class="btn btn-primary py-2 px-5" >Alisher</div>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-thin fa-chevron-left"></i>
+            <a class="left"><i class="fa fa-angle-left" onclick="goNext(-1)"></i></a>
+            <a class="right"><i class="fa-solid fa-angle-right" onclick="goNext(1)"></i></a>
+
+          </div>
+          <div class="line">
+              <button class="btns"  onclick="goChiziq(1)"></button>
+              <button class="btns" onclick="goChiziq(2)"></button>
+              <button class="btns" onclick="goChiziq(3)"></button>
+          </div> 
+     </section >
+     <section class="mt-5 pt-5 about-scroll">
+         <div class="container shadow ">
+             <div class="row">
+                  <div class="col-sm-12 col-lg-6">
+                      <div class="about">
+                              <img src="/img/about.jpg" class="img-fluid" alt="">
+                              <div class="about-play">
+                                  <a href="" class="about-link">
+                                      <i class="fa-solid fa-play play-icon  text-light"></i>
+                                  </a>
+                              </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 align-self-center">
+                      <div class="about-text">
+                         <h1 class="text-center mb-5">About Us</h1>
+                         <p class="fs">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+                         <div class="about-text-in row mt-3">
+                                 <div class="col-sm-12 col-lg-2 d-flex justify-content-end">
+                                     <span  class="about-icon-span"><i class="fa-solid fa-fingerprint "></i></span>
+                                 </div>
+                                 <div class="col-sm-12 col-lg-10">
+                                     <h5 class="mb-3">LOREM IPSUM</h5>
+                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                 </div>
+                         </div>
+                         <div class="about-text-in row mt-5">
+                            <div class="col-sm-12 col-lg-2 d-flex justify-content-end">
+                                <span class="about-icon-span"><i class="fa-solid fa-gift "></i></span>
+                            </div>
+                            <div class="col-sm-12 col-lg-10">
+                                <h5 class="mb-3">LOREM IPSUM</h5>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                    </div>
+ 
+
+                      </div>
+                  </div>
+             </div>
+         </div>
+     </section>
+
+     <section>
+       <div class="container card-about">
+         <div class=" row">
+             <div class="card-about-in col-sm-12 col-md-6 col-lg-4 p-4">
+                 <h3 class="my-4">01</h3>
+                 <h2 class="number-scroll2">Lorem Ipsum</h2>
+                 <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+             </div>
+             <div class="card-about-in p-4 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="my-4">02</h3>
+                <h2>Repellat Nihil</h2>
+                <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="card-about-in p-4 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="my-4">03</h3>
+                <h2>Ad ad velit qui</h2>
+                <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="card-about-in p-4 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="my-4">04</h3>
+                <h2>Repellendus molestiae </h2>
+                <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="card-about-in p-4 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="my-4">05</h3>
+                <h2>Sapiente Magnam</h2>
+                <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+            <div class="card-about-in p-4 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="my-4">06</h3>
+                <h2>Facilis Impedit</h2>
+                <p class="mt-4">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+         </div>
+       </div>
+     </section>
+
+     <section>
+         <div class="bg-color-about">
+          <div class="container">
+        <div class="row-number">
+                 <div class="row">
+                     <div class="col-sm-12 col-md-6 col-lg-3 ">
+                         <div class=" text-center number shadow "> 
+                           <h1 class="number-scrol" data-val="232">0</h1>
+                           <p>Happy Clients </p>    
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-3 ">
+                        <div class=" text-center number shadow "> 
+                          <h1 class="number-scrol" data-val="232">0</h1>
+                          <p>Happy Clients </p>    
+                       </div>
+                   </div>
+                   <div class=" col-sm-12 col-md-6 col-lg-3 ">
+                    <div class=" text-center number shadow "> 
+                      <h1 class="number-scrol" data-val="232">0</h1>
+                      <p>Happy Clients </p>    
+                   </div>
+               </div>
+               <div class=" col-sm-12 col-md-6 col-lg-3 ">
+                <div class=" text-center number shadow "> 
+                  <h1 class="number-scrol" data-val="232">0</h1>
+                  <p>Happy Clients </p>    
+               </div>
+           </div>
+          </div>          
+                      
+                        
+                 </div>
+
+          </div>
+         </div>
+     </section>
+              <section>
+                  <div class="container">
+                      <div class="row w-100 text-center">
+                          <div class="col-sm-12 col-md-6 col-lg-4">
+                              <div class="services">
+                                  <span><i class="fa-solid fa-message"></i></span>
+                                  <h4 class="mt-3">Lorem Ipsum</h4>
+                                  <hr>
+                                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                              </div>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="services">
+                                <span><i class="fa-solid fa-message"></i></span>
+                                <h4 class="mt-3">Lorem Ipsum</h4>
+                                <hr>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="services">
+                                <span><i class="fa-solid fa-message"></i></span>
+                                <h4 class="mt-3">Lorem Ipsum</h4>
+                                <hr>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="services">
+                                <span><i class="fa-solid fa-message"></i></span>
+                                <h4 class="mt-3">Lorem Ipsum</h4>
+                                <hr>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="services">
+                                <span><i class="fa-solid fa-message"></i></span>
+                                <h4 class="mt-3">Lorem Ipsum</h4>
+                                <hr>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="services">
+                                <span><i class="fa-solid fa-message"></i></span>
+                                <h4 class="mt-3">Lorem Ipsum</h4>
+                                <hr>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                          
+                   
+                  </div>
+              </section>
+      
+             <section class="section-portfolio">
+                 
+                 <div class="container">
+     <input type="radio" name="a" id="n1">
+     <input type="radio" name="a" id="n2">
+     <input type="radio" name="a" id="n3">
+     <input type="radio" name="a" id="n4">
+                     <div class="portfolio">
+                      <div class="portfolio-head text-center">
+                          <h1>Our Portfolio</h1>
+                          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                      </div>
+
+                      <div class="portfolio-label text-center my-4" >
+                          <label for="n1" class="btn menu active   mx-1 border border-primary border-2 bg-transparent text-dark rounded-pill">All</label>
+                          <label for="n2" class="btn menu  mx-1 border border-primary border-2 bg-transparent text-dark rounded-pill">app</label>
+                          <label for="n3" class="btn menu   mx-1 border border-primary border-2 bg-transparent text-dark rounded-pill">card</label>
+                          <label for="n4" class="btn menu   mx-1 border border-primary border-2 bg-transparent text-dark rounded-pill">web</label>
+                      </div>
+                          
+                           <div class="portfolio-gallery row">
+                               <div class="p-3 img app col-sm-12 col-md-6 col-lg-4">
+                                     <div class="img-in ">
+                                   <img src="./img/portfolio/portfolio-1.jpg" alt="a"> 
+                                   <div class="gallery-hover">
+                                       <div class="gallery-hover-in text-center">
+                                       <h3>Web 1</h3>
+                                       <p>web</p>
+                                          <div>
+                                              <i class="fa-solid fa-angle-down me-1"></i>
+                                              <i class="fa-solid fa-angle-down ms-1"></i>
+
+                                          </div>
+                                   </div>
+                                </div>
+                                     </div>
+                                </div>
+                               <div class="p-3 img web col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-2.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class="p-3 img web col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-3.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class="  p-3 img app col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-4.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class="p-3 img card-d col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-5.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class="p-3 img web col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-6.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class="p-3 img app col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-7.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class=" p-3 img card-d col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-8.jpg" alt="a">    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                               <div class=" p-3 img web col-sm-12 col-md-6 col-lg-4">
+                                <div class="img-in ">
+                                    <img src="./img/portfolio/portfolio-9.jpg" alt="a">
+                                    <div class="gallery-hover">
+                                        <div class="gallery-hover-in text-center">
+                                        <h3>Web 1</h3>
+                                        <p>web</p>
+                                           <div>
+                                               <i class="fa-solid fa-angle-down me-1"></i>
+                                               <i class="fa-solid fa-angle-down ms-1"></i>
+ 
+                                           </div>
+                                    </div>
+                                 </div>
+                                      </div>
+                                </div>
+                           </div>
+                     </div>
+                 </div>
+             </section>         
+
+
+             <section class="team">
+                 <div class="container">
+                     <div class="">
+                         <div class="team-name text-center my-5">
+                             <h1 >Our Team</h1>
+                             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+                         </div>
+                           <div class="row">
+                          
+                             <div class="col-sm-12 col-md-6 col-lg-3">
+                                 <div class="team-img">
+                                    <div class="team-img-in">
+                                        <img src="./img/team/team-1.jpg" class="img-fluid" alt="">
+                                    </div>  
+                                    <div class="team-info text-light text-center">
+                                        <h5>Walter White</h5>
+                                        <hr>
+                                        <h6>Accountant</h6>
+                                        <div class="d-flex justify-content-center team-icon ">
+                                           <span><i class="fab fa-twitter"></i></span>
+                                           <span><i class="fab fa-youtube ms-1"></i></span>
+                                           <span><i class="fab fa-telegram mx-1"></i></span>
+                                           <span><i class="fab fa-instagram"></i></span>
+                                        </div>
+                                    </div>
+                                 </div>
+                             </div>
+                             
+                             <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="team-img">
+                                   <div class="team-img-in">
+                                       <img src="./img/team/team-2.jpg" class="img-fluid" alt="">
+                                   </div>  
+                                   <div class="team-info text-light text-center">
+                                    <h5>Amanda Jepson</h5>
+                                    <hr>
+                                    <h6>Accountant</h6>
+                                    <div class="d-flex justify-content-center team-icon ">
+                                       <span><i class="fab fa-twitter"></i></span>
+                                       <span><i class="fab fa-youtube ms-1"></i></span>
+                                       <span><i class="fab fa-telegram mx-1"></i></span>
+                                       <span><i class="fab fa-instagram"></i></span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="team-img">
+                                   <div class="team-img-in">
+                                       <img src="./img/team/team-3.jpg" class="img-fluid" alt="">
+                                   </div> 
+                                   <div class="team-info text-light text-center">
+                                    <h5>Amanda Jepson</h5>
+                                    <hr>
+                                    <h6>Accountant</h6>
+                                    <div class="d-flex justify-content-center team-icon ">
+                                       <span><i class="fab fa-twitter"></i></span>
+                                       <span><i class="fab fa-youtube ms-1"></i></span>
+                                       <span><i class="fab fa-telegram mx-1"></i></span>
+                                       <span><i class="fab fa-instagram"></i></span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-3 ">
+                                <div class="team-img">
+                                   <div class="team-img-in">
+                                       <img src="./img/team/team-4.jpg" class="img-fluid" alt="">
+                                   </div>  
+                                     <div class="team-info text-light text-center">
+                                         <h5>Amanda Jepson</h5>
+                                         <hr>
+                                         <h6>Accountant</h6>
+                                         <div class="d-flex justify-content-center team-icon ">
+                                            <span><i class="fab fa-twitter"></i></span>
+                                            <span><i class="fab fa-youtube ms-1"></i></span>
+                                            <span><i class="fab fa-telegram mx-1"></i></span>
+                                            <span><i class="fab fa-instagram"></i></span>
+                                         </div>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                            </div>
+                           
+                     </div>
+                 </div>
+             </section>
+             <section>
+                 <div class="color ">
+                     <div class="container d-flex flex-column ">
+                         <div class="text-center w-100 my-5">
+                             <h1>Frequently Asked Questions</h1>
+                         </div>
+                         <div class="row">
+                             <div class="col-sm-12 col-lg-6">
+                             <div class="row">
+
+                             
+                            <div class="col-sm-12 ">
+                                <div class="acc">
+                                <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+                                <div class="a">
+                                <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                            </div>
+                         </div>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <div class="acc">
+                            <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+                            <div class="a">
+                            <p class="p">Feugiat2 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                        </div>
+                     </div>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div class="acc">
+                        <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+                        <div class="a">
+                        <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    </div>
+                 </div>
+                </div>
+                             </div>
+                <div class="col-sm-12 ">
+                    <div class="acc">
+                    <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+                    <div class="a">
+                    <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+             </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+            <div class="row">
+
+          
+            <div class="col-sm-12  ">
+                <div class="acc">
+                <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+                <div class="a">
+                <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+            </div>
+         </div>
+        </div>
+        <div class="col-sm-12  ">
+            <div class="acc">
+            <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+            <div class="a">
+            <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+        </div>
+     </div>
+    </div>
+    <div class="col-sm-12  ">
+        <div class="acc">
+        <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+        <div class="a">
+        <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+    </div>
+ </div>
+</div>
+<div class="col-sm-12  ">
+    <div class="acc">
+    <button class="acca "><p>Non consectetur a erat nam at lectus urna duis?</p> <i class="fa-solid fa-angle-up"></i></button>
+    <div class="a">
+    <p class="p">Feugiat1 pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+</div>
+</div>
+</div>
+            </div>       </div>
+                     </div>
+                 </div>
+                 </div>
+        
+             </section>
+             <section class="m">
+                 <div class="container ">
+                     <div class="contact-info ">
+                         <div class="row">
+                         <div class="col-sm-12 contact-in col-lg-6">
+                             <div class="contact">
+                                    <span ><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4 class="my-2">Our Address</h4>
+                                     <p>A108 Adam Street, New York, NY 535022</p>
+                             </div>
+                         </div>
+                         <div class="col-sm-12 contact-in col-lg-3">
+                             <div class="contact">
+                                     <span><i class="fa fa-message"></i></span>
+                                     <h4 class="my-2">Email Us</h4>
+                                     <p>info@example.com <br> contact@example.com</p>
+                                     
+                             </div>
+                         </div >
+                         <div class="col-sm-12 contact-in col-lg-3">
+                             <div class="contact">
+                                 <span><i  class="fa-solid fa-phone-volume"></i></span>
+                                 <h4 class="my-2">Call Us</h4>
+                                    <p> +1 6678 254445 41 <br>+1 5589 55488 55</p>
+                             </div>
+                            </div>
+                     </div>
+                     <div class="contact-form mt-5">
+                         <div class="row">
+                            
+                             <div class="col-sm-12 col-lg-6">
+                                 <input type="text" placeholder="Your Name" class="form-control p-3">
+                             </div>
+                            
+                             <div class="col-sm-12 col-lg-6">
+                                <input type="email" placeholder="Your Email" class="form-control p-3 input-m">
+                             </div>
+                              <div class="col-sm-12 mt-3">
+                                <input type="text" placeholder="Subject" class="form-control p-3">
+                              </div>
+                                <div class="col-sm-12 mt-3">
+                                    <textarea name="m" id="m" class="form-control p-3"></textarea>
+                                </div>
+                                <div class="col-sm-12 mt-3">
+                                    <input type="submit" class="btn btn-primary py-3 px-5" value="Send Massage">
+                                    
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        
+                 </div>
+             </footer>
+
+        <a class="up" href="#"> <i class="fa-solid fa-angle-double-up"></i></a>
+
+        <br>
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="./js/jquery-3.6.0.min.js"></script>
+            <script src="./js/main.js"></script>
+</body>
+</html>
